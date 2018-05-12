@@ -27,7 +27,7 @@ body {
     background-size: cover;
 }
 #cover{
-    background-image: url(../images/Cover.jpg);
+    background-image: url(../images/cover.jpg);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -58,7 +58,7 @@ body {
     z-index: 1;
 }
 #mapextent{
-    background-image: url(../images/backgroundmap3.png);
+    background-image: url(../images/backgroundmap.png);
     position: absolute;
     top: 800px;
     left: 0px;
@@ -75,22 +75,22 @@ body {
     font-family: 'Josefin Slab', serif;
     font-size: 20px;
 }
-#Iceland{
+#iceland{
     position: absolute;
     top:1212px;
     left:160px;    
 }
-#Finland{
+#finland{
     position: absolute;
     top:1315px;
     left:1190px;    
 }
-#Norway{
+#norway{
     position: absolute;
     top:1390px;
     left:800px;    
 }
-#Sweden{
+#sweden{
     position: absolute;
     top:1100px;
     left:1020px;    

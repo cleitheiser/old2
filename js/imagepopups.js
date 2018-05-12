@@ -5,229 +5,229 @@ $(document).ready(function() {
 //////////////////////////////////////
     
 //Finland Image popups
-    $('#Rovaniemiloc').click(function() {
-        $('#Rovaniemiimg').fadeIn(500);
-        $('#Rovaniemiicon').fadeIn(500);
+    $('#rovaniemiloc').click(function() {
+        $('#rovaniemiimg').fadeIn(500);
+        $('#rovaniemiicon').fadeIn(500);
     });    
-    $('#Kakslauttanenloc').click(function() {
-        $('#Kakslauttanenimg').fadeIn(500);
-        $('#Kakslauttanenicon').fadeIn(500);
+    $('#kakslauttanenloc').click(function() {
+        $('#kakslauttanenimg').fadeIn(500);
+        $('#kakslauttanenicon').fadeIn(500);
     });
-    $('#DogSleddingloc').click(function() {
-        $('#DogSleddingimg').fadeIn(500);
-        $('#DogSleddingicon').fadeIn(500);
+    $('#dogsleddingloc').click(function() {
+        $('#dogsleddingimg').fadeIn(500);
+        $('#dogsleddingicon').fadeIn(500);
     }); 
-    $('#IceBreakerCruiseloc').click(function() {
-        $('#IceBreakerCruiseimg').fadeIn(500);
-        $('#IceBreakerCruiseicon').fadeIn(500);
+    $('#icebreakerloc').click(function() {
+        $('#icebreakerimg').fadeIn(500);
+        $('#icebreakericon').fadeIn(500);
     });    
-    $('#Nuuksioloc').click(function() {
-        $('#Nuuksioimg').fadeIn(500);
-        $('#Nuuksioicon').fadeIn(500);
+    $('#nuuksioloc').click(function() {
+        $('#nuuksioimg').fadeIn(500);
+        $('#nuuksioicon').fadeIn(500);
     });
-    $('#Katajanokkaloc').click(function() {
-        $('#Katajanokkaimg').fadeIn(500);
-        $('#Katajanokkaicon').fadeIn(500);
+    $('#katajanokkaloc').click(function() {
+        $('#katajanokkaimg').fadeIn(500);
+        $('#katajanokkaicon').fadeIn(500);
     }); 
-    $('#korouomafallsloc').click(function() {
-        $('#korouomafallsimg').fadeIn(500);
-        $('#korouomafallsicon').fadeIn(500);
+    $('#korouomaloc').click(function() {
+        $('#korouomaimg').fadeIn(500);
+        $('#korouomaicon').fadeIn(500);
     });
-    $('#AlpoKoivumakiloc').click(function() {
-        $('#AlpoKoivumkiimg').fadeIn(500);
-        $('#AlpoKoivumakiicon').fadeIn(500);
+    $('#alpokoivumakiloc').click(function() {
+        $('#alpokoivumakiimg').fadeIn(500);
+        $('#alpokoivumakiicon').fadeIn(500);
     });
-    $('#KummakiviBalancingRockloc').click(function() {
-        $('#KummakiviBalancingRockimg').fadeIn(500);
-        $('#KummakiviBalancingRockicon').fadeIn(500);
+    $('#kummakiviloc').click(function() {
+        $('#kummakiviimg').fadeIn(500);
+        $('#kummakiviicon').fadeIn(500);
     });
-    $('#Treriksrosetloc').click(function() {
-        $('#Treriksrosetimg').fadeIn(500);
-        $('#Treriksroseticon').fadeIn(500);
+    $('#treriksrosetloc').click(function() {
+        $('#treriksrosetimg').fadeIn(500);
+        $('#treriksroseticon').fadeIn(500);
     });
     
 // Return to Finland    
     $("#finland").click(function() {
-        $('#Rovaniemiimg').fadeOut(500);
-        $('#Kakslauttanenimg').fadeOut(500);
-        $("#DogSleddingimg").fadeOut(500);
-        $("#IceBreakerCruiseimg").fadeOut(500);
-        $("#Nuuksioimg").fadeOut(500);
-        $("#Katajanokkaimg").fadeOut(500);
-        $("#korouomafallsimg").fadeOut(500);
-        $("#AlpoKoivumkiimg").fadeOut(500);
-        $("#KummakiviBalancingRockimg").fadeOut(500);
-        $("#Treriksrosetimg").fadeOut(500);
-        $('#Rovaniemiicon').fadeOut(500);
-        $('#Kakslauttanenicon').fadeOut(500);
-        $("#DogSleddingicon").fadeOut(500);
-        $("#IceBreakerCruiseicon").fadeOut(500);
-        $("#Nuuksioicon").fadeOut(500);
-        $("#Katajanokkaicon").fadeOut(500);
-        $("#korouomafallsicon").fadeOut(500);
-        $("#AlpoKoivumakiicon").fadeOut(500);
-        $("#KummakiviBalancingRockicon").fadeOut(500);
-        $("#Treriksroseticon").fadeOut(500);
+        $('#rovaniemiimg').fadeOut(500);
+        $('#kakslauttanenimg').fadeOut(500);
+        $("#dogsleddingimg").fadeOut(500);
+        $("#icebreakerimg").fadeOut(500);
+        $("#nuuksioimg").fadeOut(500);
+        $("#katajanokkaimg").fadeOut(500);
+        $("#korouomaimg").fadeOut(500);
+        $("#alpokoivumakiimg").fadeOut(500);
+        $("#kummakiviimg").fadeOut(500);
+        $("#treriksrosetimg").fadeOut(500);
+        $('#rovaniemiicon').fadeOut(500);
+        $('#kakslauttanenicon').fadeOut(500);
+        $("#dogsleddingicon").fadeOut(500);
+        $("#icebreakericon").fadeOut(500);
+        $("#nuuksioicon").fadeOut(500);
+        $("#katajanokkaicon").fadeOut(500);
+        $("#korouomaicon").fadeOut(500);
+        $("#alpokoivumakiicon").fadeOut(500);
+        $("#kummakiviicon").fadeOut(500);
+        $("#treriksroseticon").fadeOut(500);
         $("#finland").fadeIn(500);
     });  
     
 // Finland Info popups
-    $('#Rovaniemiicon').click(function() {
-        $('#Rovaniemiinfo').fadeIn(500);
+    $('#rovaniemiicon').click(function() {
+        $('#rovaniemiinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Rovaniemiicon').fadeOut(500);
+        $('#rovaniemiicon').fadeOut(500);
         });  
-    $('#Rovaniemiimg').click(function() {
-        $('#Rovaniemiinfo').fadeOut(500);
+    $('#rovaniemiimg').click(function() {
+        $('#rovaniemiinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Rovaniemiicon').fadeIn(500);
+        $('#rovaniemiicon').fadeIn(500);
     });
     $("#finland").click(function() {
-        $('#Rovaniemiinfo').fadeOut(500);
+        $('#rovaniemiinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#finland").fadeIn(500);
     }); 
     
-    $('#Kakslauttanenicon').click(function() {
-        $('#Kakslauttaneninfo').fadeIn(500);
+    $('#kakslauttanenicon').click(function() {
+        $('#kakslauttaneninfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Kakslauttanenicon').fadeOut(500);
+        $('#kakslauttanenicon').fadeOut(500);
         });  
-    $('#Kakslauttanenimg').click(function() {
-        $('#Kakslauttaneninfo').fadeOut(500);
+    $('#kakslauttanenimg').click(function() {
+        $('#kakslauttaneninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Kakslauttanenicon').fadeIn(500);
+        $('#kakslauttanenicon').fadeIn(500);
     });
     $("#finland").click(function() {
-        $('#Kakslauttaneninfo').fadeOut(500);
+        $('#kakslauttaneninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#finland").fadeIn(500);
     }); 
     
-    $('#DogSleddingicon').click(function() {
-        $('#DogSleddinginfo').fadeIn(500);
+    $('#dogsleddingicon').click(function() {
+        $('#dogsleddinginfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#DogSleddingicon').fadeOut(500);
+        $('#dogsleddingicon').fadeOut(500);
     });  
-    $('#DogSleddingimg').click(function() {
-        $('#DogSleddinginfo').fadeOut(500);
+    $('#dogsleddingimg').click(function() {
+        $('#dogsleddinginfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#DogSleddingicon').fadeIn(500);
+        $('#dogsleddingicon').fadeIn(500);
     });
     $("#finland").click(function() {
-        $('#DogSleddinginfo').fadeOut(500);
+        $('#dogsleddinginfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#finland").fadeIn(500);
     }); 
     
-    $('#IceBreakerCruiseicon').click(function() {
-        $('#IceBreakerCruiseinfo').fadeIn(500);
+    $('#icebreakericon').click(function() {
+        $('#icebreakerinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#IceBreakerCruiseicon').fadeOut(500);
+        $('#icebreakericon').fadeOut(500);
     });  
-    $('#IceBreakerCruiseimg').click(function() {
-        $('#IceBreakerCruiseinfo').fadeOut(500);
+    $('#icebreakerimg').click(function() {
+        $('#icebreakerinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#IceBreakerCruiseicon').fadeIn(500);
+        $('#icebreakericon').fadeIn(500);
     });
     $("#finland").click(function() {
-        $('#IceBreakerCruiseinfo').fadeOut(500);
+        $('#icebreakerinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#finland").fadeIn(500);
     }); 
     
-    $('#Nuuksioicon').click(function() {
-        $('#Nuuksioinfo').fadeIn(500);
+    $('#nuuksioicon').click(function() {
+        $('#nuuksioinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Nuuksioicon').fadeOut(500);
+        $('#nuuksioicon').fadeOut(500);
     });  
-    $('#Nuuksioimg').click(function() {
-        $('#Nuuksioinfo').fadeOut(500);
+    $('#nuuksioimg').click(function() {
+        $('#nuuksioinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Nuuksioicon').fadeIn(500);
+        $('#nuuksioicon').fadeIn(500);
     });
     $("#finland").click(function() {
-        $('#Nuuksioinfo').fadeOut(500);
+        $('#nuuksioinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#finland").fadeIn(500);
     }); 
     
-    $('#Katajanokkaicon').click(function() {
-        $('#Katajanokkainfo').fadeIn(500);
+    $('#katajanokkaicon').click(function() {
+        $('#katajanokkainfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Katajanokkaicon').fadeOut(500);
+        $('#katajanokkaicon').fadeOut(500);
     });  
-    $('#Katajanokkaimg').click(function() {
-        $('#Katajanokkainfo').fadeOut(500);
+    $('#katajanokkaimg').click(function() {
+        $('#katajanokkainfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Katajanokkaicon').fadeIn(500);
+        $('#katajanokkaicon').fadeIn(500);
     });
     $("#finland").click(function() {
-        $('#Katajanokkainfo').fadeOut(500);
+        $('#katajanokkainfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#finland").fadeIn(500);
     }); 
     
-    $('#korouomafallsicon').click(function() {
-        $('#korouomafallsinfo').fadeIn(500);
+    $('#korouomaicon').click(function() {
+        $('#korouomainfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#korouomafallsicon').fadeOut(500);
+        $('#korouomaicon').fadeOut(500);
     });  
-    $('#korouomafallsimg').click(function() {
-        $('#korouomafallsinfo').fadeOut(500);
+    $('#korouomaimg').click(function() {
+        $('#korouomainfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#korouomafallsicon').fadeIn(500);
+        $('#korouomaicon').fadeIn(500);
     });
     $("#finland").click(function() {
-        $('#korouomafallsinfo').fadeOut(500);
+        $('#korouomainfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#finland").fadeIn(500);
     });   
     
-    $('#AlpoKoivumakiicon').click(function() {
-        $('#AlpoKoivumakiinfo').fadeIn(500);
+    $('#alpokoivumakiicon').click(function() {
+        $('#alpokoivumakiinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#AlpoKoivumakiicon').fadeOut(500);
+        $('#alpokoivumakiicon').fadeOut(500);
     });  
-    $('#AlpoKoivumkiimg').click(function() {
-        $('#AlpoKoivumakiinfo').fadeOut(500);
+    $('#alpokoivumakiimg').click(function() {
+        $('#alpokoivumakiinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#AlpoKoivumakiicon').fadeIn(500);
+        $('#alpokoivumakiicon').fadeIn(500);
     });
     $("#finland").click(function() {
-        $('#AlpoKoivumakiinfo').fadeOut(500);
+        $('#alpokoivumakiinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#finland").fadeIn(500);
     });   
     
-    $('#KummakiviBalancingRockicon').click(function() {
-        $('#KummakiviBalancingRockinfo').fadeIn(500);
+    $('#kummakiviicon').click(function() {
+        $('#kummakiviinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#KummakiviBalancingRockicon').fadeOut(500);
+        $('#kummakiviicon').fadeOut(500);
     });  
-    $('#KummakiviBalancingRockimg').click(function() {
-        $('#KummakiviBalancingRockinfo').fadeOut(500);
+    $('#kummakiviimg').click(function() {
+        $('#kummakiviinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#KummakiviBalancingRockicon').fadeIn(500);
+        $('#kummakiviicon').fadeIn(500);
     });
     $("#finland").click(function() {
-        $('#KummakiviBalancingRockinfo').fadeOut(500);
+        $('#kummakiviinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#finland").fadeIn(500);
     });      
     
-    $('#Treriksroseticon').click(function() {
-        $('#Treriksrosetinfo').fadeIn(500);
+    $('#treriksroseticon').click(function() {
+        $('#treriksrosetinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Treriksroseticon').fadeOut(500);
+        $('#treriksroseticon').fadeOut(500);
     });  
-    $('#Treriksrosetimg').click(function() {
-        $('#Treriksrosetinfo').fadeOut(500);
+    $('#treriksrosetimg').click(function() {
+        $('#treriksrosetinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Treriksroseticon').fadeIn(500);
+        $('#treriksroseticon').fadeIn(500);
     });
     $("#finland").click(function() {
-        $('#Treriksrosetinfo').fadeOut(500);
+        $('#treriksrosetinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#finland").fadeIn(500);
     });  
@@ -237,229 +237,229 @@ $(document).ready(function() {
 //////////////////////////////////////
 
 //Norway Image popups
-    $('#NorthCapeloc').click(function() {
-        $('#NorthCapeimg').fadeIn(500);
-         $('#NorthCapeicon').fadeIn(500);
+    $('#northcapeloc').click(function() {
+        $('#northcapeimg').fadeIn(500);
+         $('#northcapeicon').fadeIn(500);
     });    
-    $('#Rostloc').click(function() {
-        $('#Rostimg').fadeIn(500);
-        $('#Rosticon').fadeIn(500);
+    $('#rostloc').click(function() {
+        $('#rostimg').fadeIn(500);
+        $('#rosticon').fadeIn(500);
     });
-    $('#Torghattenloc').click(function() {
-        $('#Torghattenimg').fadeIn(500);
-        $('#Torghattenicon').fadeIn(500);
+    $('#torghattenloc').click(function() {
+        $('#torghattenimg').fadeIn(500);
+        $('#torghattenicon').fadeIn(500);
     });    
-    $('#Trondheimloc').click(function() {
-        $('#Trondheimimg').fadeIn(500);
-        $('#Trondheimicon').fadeIn(500);
+    $('#trondheimloc').click(function() {
+        $('#trondheimimg').fadeIn(500);
+        $('#trondheimicon').fadeIn(500);
     });    
-    $('#Kannesteinenloc').click(function() {
-        $('#Kannesteinenimg').fadeIn(500);
-        $('#Kannesteinenicon').fadeIn(500);
+    $('#kannesteinenloc').click(function() {
+        $('#kannesteinenimg').fadeIn(500);
+        $('#kannesteinenicon').fadeIn(500);
     });
-    $('#NigardsbreenIceCaveloc').click(function() {
-        $('#NigardsbreenIceCaveimg').fadeIn(500);
-        $('#NigardsbreenIceCaveicon').fadeIn(500);
+    $('#nigardsbreenloc').click(function() {
+        $('#nigardsbreenimg').fadeIn(500);
+        $('#nigardsbreenicon').fadeIn(500);
     }); 
-    $('#Trolltungaloc').click(function() {
-        $('#Trolltungaimg').fadeIn(500);
-        $('#Trolltungaicon').fadeIn(500);
+    $('#trolltungaloc').click(function() {
+        $('#trolltungaimg').fadeIn(500);
+        $('#trolltungaicon').fadeIn(500);
     });
-    $('#AtlanticRoadloc').click(function() {
-        $('#AtlanticRoadimg').fadeIn(500);
-        $('#AtlanticRoadicon').fadeIn(500);
+    $('#atlanticroadloc').click(function() {
+        $('#atlanticroadimg').fadeIn(500);
+        $('#atlanticroadicon').fadeIn(500);
     });
-    $('#StegasteinLookoutloc').click(function() {
-        $('#StegasteinLookoutimg').fadeIn(500);
-        $('#StegasteinLookouticon').fadeIn(500);
+    $('#aurlandloc').click(function() {
+        $('#aurlandimg').fadeIn(500);
+        $('#aurlandicon').fadeIn(500);
     });
-    $('#MiniBottleloc').click(function() {
-        $('#MiniBottleimg').fadeIn(500);
-        $('#MiniBottleicon').fadeIn(500);
+    $('#minibottleloc').click(function() {
+        $('#minibottleimg').fadeIn(500);
+        $('#minibottleicon').fadeIn(500);
     });  
     
 // Return to map Norway
     $("#norway").click(function() {
-        $('#NorthCapeimg').fadeOut(500);
-        $('#Rostimg').fadeOut(500);
-        $("#Torghattenimg").fadeOut(500);
-        $("#Trondheimimg").fadeOut(500);
-        $("#Kannesteinenimg").fadeOut(500);
-        $("#NigardsbreenIceCaveimg").fadeOut(500);
-        $("#Trolltungaimg").fadeOut(500);
-        $("#AtlanticRoadimg").fadeOut(500);
-        $("#StegasteinLookoutimg").fadeOut(500);
-        $("#MiniBottleimg").fadeOut(500);
-        $('#NorthCapeicon').fadeOut(500);
-        $('#Rosticon').fadeOut(500);
-        $("#Torghattenicon").fadeOut(500);
-        $("#Trondheimicon").fadeOut(500);
-        $("#Kannesteinenicon").fadeOut(500);
-        $("#NigardsbreenIceCaveicon").fadeOut(500);
-        $("#Trolltungaicon").fadeOut(500);
-        $("#AtlanticRoadicon").fadeOut(500);
-        $("#StegasteinLookouticon").fadeOut(500);
-        $("#MiniBottleicon").fadeOut(500);
+        $('#northcapeimg').fadeOut(500);
+        $('#rostimg').fadeOut(500);
+        $("#torghattenimg").fadeOut(500);
+        $("#trondheimimg").fadeOut(500);
+        $("#kannesteinenimg").fadeOut(500);
+        $("#nigardsbreenimg").fadeOut(500);
+        $("#trolltungaimg").fadeOut(500);
+        $("#atlanticroadimg").fadeOut(500);
+        $("#aurlandimg").fadeOut(500);
+        $("#minibottleimg").fadeOut(500);
+        $('#northcapeicon').fadeOut(500);
+        $('#rosticon').fadeOut(500);
+        $("#torghattenicon").fadeOut(500);
+        $("#trondheimicon").fadeOut(500);
+        $("#kannesteinenicon").fadeOut(500);
+        $("#nigardsbreenicon").fadeOut(500);
+        $("#trolltungaicon").fadeOut(500);
+        $("#atlanticroadicon").fadeOut(500);
+        $("#aurlandicon").fadeOut(500);
+        $("#minibottleicon").fadeOut(500);
         $("#norway").fadeIn(500);
     });
     
 // Norway Info popups
-    $('#NorthCapeicon').click(function() {
-        $('#NorthCapeinfo').fadeIn(500);
+    $('#northcapeicon').click(function() {
+        $('#northcapeinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#NorthCapeicon').fadeOut(500);
+        $('#northcapeicon').fadeOut(500);
         });  
-    $('#NorthCapeimg').click(function() {
-        $('#NorthCapeinfo').fadeOut(500);
+    $('#northcapeimg').click(function() {
+        $('#northcapeinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#NorthCapeicon').fadeIn(500);
+        $('#northcapeicon').fadeIn(500);
     });
     $("#norway").click(function() {
-        $('#NorthCapeinfo').fadeOut(500);
+        $('#northcapeinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#norway").fadeIn(500);
     }); 
     
-    $('#Rosticon').click(function() {
-        $('#Rostinfo').fadeIn(500);
+    $('#rosticon').click(function() {
+        $('#rostinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Rosticon').fadeOut(500);
+        $('#rosticon').fadeOut(500);
         });  
-    $('#Rostimg').click(function() {
-        $('#Rostinfo').fadeOut(500);
+    $('#rostimg').click(function() {
+        $('#rostinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Rosticon').fadeIn(500);
+        $('#rosticon').fadeIn(500);
     });
     $("#norway").click(function() {
-        $('#Rostinfo').fadeOut(500);
+        $('#rostinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#norway").fadeIn(500);
     }); 
     
-    $('#Torghattenicon').click(function() {
-        $('#Torghatteninfo').fadeIn(500);
+    $('#torghattenicon').click(function() {
+        $('#torghatteninfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Torghattenicon').fadeOut(500);
+        $('#torghattenicon').fadeOut(500);
     });  
-    $('#Torghattenimg').click(function() {
-        $('#Torghatteninfo').fadeOut(500);
+    $('#torghattenimg').click(function() {
+        $('#torghatteninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Torghattenicon').fadeIn(500);
+        $('#torghattenicon').fadeIn(500);
     });
     $("#norway").click(function() {
-        $('#Torghatteninfo').fadeOut(500);
+        $('#torghatteninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#norway").fadeIn(500);
     });      
     
-    $('#Trondheimicon').click(function() {
-        $('#Trondheiminfo').fadeIn(500);
+    $('#trondheimicon').click(function() {
+        $('#trondheiminfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Trondheimicon').fadeOut(500);
+        $('#trondheimicon').fadeOut(500);
     });  
-    $('#Trondheimimg').click(function() {
-        $('#Trondheiminfo').fadeOut(500);
+    $('#trondheimimg').click(function() {
+        $('#trondheiminfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Trondheimicon').fadeIn(500);
+        $('#trondheimicon').fadeIn(500);
     });
     $("#norway").click(function() {
-        $('#Trondheiminfo').fadeOut(500);
+        $('#trondheiminfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#norway").fadeIn(500);
     }); 
     
-    $('#Kannesteinenicon').click(function() {
-        $('#Kannesteineninfo').fadeIn(500);
+    $('#kannesteinenicon').click(function() {
+        $('#kannesteineninfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Kannesteinenicon').fadeOut(500);
+        $('#kannesteinenicon').fadeOut(500);
     });  
-    $('#Kannesteinenimg').click(function() {
-        $('#Kannesteineninfo').fadeOut(500);
+    $('#kannesteinenimg').click(function() {
+        $('#kannesteineninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Kannesteinenicon').fadeIn(500);
+        $('#kannesteinenicon').fadeIn(500);
     });
     $("#norway").click(function() {
-        $('#Kannesteineninfo').fadeOut(500);
+        $('#kannesteineninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#norway").fadeIn(500);
     }); 
     
-    $('#NigardsbreenIceCaveicon').click(function() {
-        $('#NigardsbreenIceCaveinfo').fadeIn(500);
+    $('#nigardsbreenicon').click(function() {
+        $('#nigardsbreeninfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#NigardsbreenIceCaveicon').fadeOut(500);
+        $('#nigardsbreenicon').fadeOut(500);
     });  
-    $('#NigardsbreenIceCaveimg').click(function() {
-        $('#NigardsbreenIceCaveinfo').fadeOut(500);
+    $('#nigardsbreenimg').click(function() {
+        $('#nigardsbreeninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#NigardsbreenIceCaveicon').fadeIn(500);
+        $('#nigardsbreenicon').fadeIn(500);
     });
     $("#norway").click(function() {
-        $('#NigardsbreenIceCaveinfo').fadeOut(500);
+        $('#nigardsbreeninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#norway").fadeIn(500);
     }); 
     
-    $('#Trolltungaicon').click(function() {
-        $('#Trolltungainfo').fadeIn(500);
+    $('#trolltungaicon').click(function() {
+        $('#trolltungainfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Trolltungaicon').fadeOut(500);
+        $('#trolltungaicon').fadeOut(500);
     });  
-    $('#Trolltungaimg').click(function() {
-        $('#Trolltungainfo').fadeOut(500);
+    $('#trolltungaimg').click(function() {
+        $('#trolltungainfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Trolltungaicon').fadeIn(500);
+        $('#trolltungaicon').fadeIn(500);
     });
     $("#norway").click(function() {
-        $('#Trolltungainfo').fadeOut(500);
+        $('#trolltungainfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#norway").fadeIn(500);
     }); 
     
-    $('#AtlanticRoadicon').click(function() {
-        $('#AtlanticRoadinfo').fadeIn(500);
+    $('#atlanticroadicon').click(function() {
+        $('#atlanticroadinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#AtlanticRoadicon').fadeOut(500);
+        $('#atlanticroadicon').fadeOut(500);
     });  
-    $('#AtlanticRoadimg').click(function() {
-        $('#AtlanticRoadinfo').fadeOut(500);
+    $('#atlanticroadimg').click(function() {
+        $('#atlanticroadinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#AtlanticRoadicon').fadeIn(500);
+        $('#atlanticroadicon').fadeIn(500);
     });
     $("#norway").click(function() {
-        $('#AtlanticRoadinfo').fadeOut(500);
+        $('#atlanticroadinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#norway").fadeIn(500);
     });   
     
-    $('#StegasteinLookouticon').click(function() {
-        $('#StegasteinLookoutinfo').fadeIn(500);
+    $('#aurlandicon').click(function() {
+        $('#aurlandinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#StegasteinLookouticon').fadeOut(500);
+        $('#aurlandicon').fadeOut(500);
     });  
-    $('#StegasteinLookoutimg').click(function() {
-        $('#StegasteinLookoutinfo').fadeOut(500);
+    $('#aurlandimg').click(function() {
+        $('#aurlandinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#StegasteinLookouticon').fadeIn(500);
+        $('#aurlandicon').fadeIn(500);
     });
     $("#norway").click(function() {
-        $('#StegasteinLookoutinfo').fadeOut(500);
+        $('#aurlandinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#norway").fadeIn(500);
     });   
     
-    $('#MiniBottleicon').click(function() {
-        $('#MiniBottleinfo').fadeIn(500);
+    $('#minibottleicon').click(function() {
+        $('#minibottleinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#MiniBottleicon').fadeOut(500);
+        $('#minibottleicon').fadeOut(500);
     });  
-    $('#MiniBottleimg').click(function() {
-        $('#MiniBottleinfo').fadeOut(500);
+    $('#minibottleimg').click(function() {
+        $('#minibottleinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#MiniBottleicon').fadeIn(500);
+        $('#minibottleicon').fadeIn(500);
     });
     $("#norway").click(function() {
-        $('#MiniBottleinfo').fadeOut(500);
+        $('#minibottleinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#norway").fadeIn(500);
     });      
@@ -469,228 +469,228 @@ $(document).ready(function() {
 //////////////////////////////////////    
 
 //Sweden Image popups    
-    $('#Icehotelloc').click(function() {
-        $('#Icehotelimg').fadeIn(500);
-         $('#Icehotelicon').fadeIn(500);
+    $('#icehotelloc').click(function() {
+        $('#icehotelimg').fadeIn(500);
+         $('#icehotelicon').fadeIn(500);
     });    
-    $('#Fulufjalletloc').click(function() {
-        $('#Fulufjälletimg').fadeIn(500);
-        $('#Fulufjalleticon').fadeIn(500);
+    $('#fulufjalletloc').click(function() {
+        $('#fulufjalletimg').fadeIn(500);
+        $('#fulufjalleticon').fadeIn(500);
     });
-    $('#Storsjonloc').click(function() {
-        $('#Storsjonimg').fadeIn(500);
-        $('#Storsjonicon').fadeIn(500);
+    $('#storsjonloc').click(function() {
+        $('#storsjonimg').fadeIn(500);
+        $('#storsjonicon').fadeIn(500);
     });    
-    $('#Jokkmokkloc').click(function() {
-        $('#Jokkmokkimg').fadeIn(500);
-        $('#Jokkmokkicon').fadeIn(500);
+    $('#jokkmokkloc').click(function() {
+        $('#jokkmokkimg').fadeIn(500);
+        $('#jokkmokkicon').fadeIn(500);
     });    
-    $('#SalaSilverMineloc').click(function() {
-        $('#SalaSilverMineimg').fadeIn(500);
-        $('#SalaSilverMineicon').fadeIn(500);
+    $('#salaloc').click(function() {
+        $('#salaimg').fadeIn(500);
+        $('#salaicon').fadeIn(500);
     });
-    $('#Bastnasloc').click(function() {
-        $('#Bastnasimg').fadeIn(500);
-        $('#Bastnasicon').fadeIn(500);
+    $('#bastnasloc').click(function() {
+        $('#bastnasimg').fadeIn(500);
+        $('#bastnasicon').fadeIn(500);
     }); 
-    $('#BexellsTalkingStonesloc').click(function() {
-        $('#BexellsTalkingStonesimg').fadeIn(500);
-        $('#BexellsTalkingStonesicon').fadeIn(500);
+    $('#bexellloc').click(function() {
+        $('#bexellimg').fadeIn(500);
+        $('#bexellicon').fadeIn(500);
     });
-    $('#WRaGaRDENloc').click(function() {
-        $('#WRaGaRDENimg').fadeIn(500);
-        $('#WRaGaRDENicon').fadeIn(500);
+    $('#wragardenloc').click(function() {
+        $('#wragardenimg').fadeIn(500);
+        $('#wragardenicon').fadeIn(500);
     });
-    $('#MuseumofFailuresloc').click(function() {
-        $('#MuseumofFailuresimg').fadeIn(500);
-        $('#MuseumofFailuresicon').fadeIn(500);
+    $('#failuresloc').click(function() {
+        $('#failuresimg').fadeIn(500);
+        $('#failuresicon').fadeIn(500);
     });
-    $('#Bureplatsenloc').click(function() {
-        $('#Bureplatsenimg').fadeIn(500);
-        $('#Bureplatsenicon').fadeIn(500);
+    $('#bureplatsenloc').click(function() {
+        $('#bureplatsenimg').fadeIn(500);
+        $('#bureplatsenicon').fadeIn(500);
     });   
 // Return to map Sweden
     $("#sweden").click(function() {
-        $('#Icehotelimg').fadeOut(500);
-        $('#Fulufjälletimg').fadeOut(500);
-        $("#Storsjonimg").fadeOut(500);
-        $("#Jokkmokkimg").fadeOut(500);
-        $("#SalaSilverMineimg").fadeOut(500);
-        $("#Bastnasimg").fadeOut(500);
-        $("#BexellsTalkingStonesimg").fadeOut(500);
-        $("#WRaGaRDENimg").fadeOut(500);
-        $("#MuseumofFailuresimg").fadeOut(500);
-        $("#Bureplatsenimg").fadeOut(500);
-        $('#Icehotelicon').fadeOut(500);
-        $('#Fulufjälleticon').fadeOut(500);
-        $("#Storsjonicon").fadeOut(500);
-        $("#Jokkmokkicon").fadeOut(500);
-        $("#SalaSilverMineicon").fadeOut(500);
-        $("#Bastnasicon").fadeOut(500);
-        $("#BexellsTalkingStonesicon").fadeOut(500);
-        $("#WRaGaRDENicon").fadeOut(500);
-        $("#MuseumofFailuresicon").fadeOut(500);
-        $("#Bureplatsenicon").fadeOut(500);
+        $('#icehotelimg').fadeOut(500);
+        $('#fulufjalletimg').fadeOut(500);
+        $("#storsjonimg").fadeOut(500);
+        $("#jokkmokkimg").fadeOut(500);
+        $("#salaimg").fadeOut(500);
+        $("#bastnasimg").fadeOut(500);
+        $("#bexellimg").fadeOut(500);
+        $("#wragardenimg").fadeOut(500);
+        $("#failuresimg").fadeOut(500);
+        $("#bureplatsenimg").fadeOut(500);
+        $('#icehotelicon').fadeOut(500);
+        $('#fulfulufjälleticon').fadeOut(500);
+        $("#storsjonicon").fadeOut(500);
+        $("#jokkmokkicon").fadeOut(500);
+        $("#salaicon").fadeOut(500);
+        $("#bastnasicon").fadeOut(500);
+        $("#bexellicon").fadeOut(500);
+        $("#wragardenicon").fadeOut(500);
+        $("#failuresicon").fadeOut(500);
+        $("#bureplatsenicon").fadeOut(500);
         $("#sweden").fadeIn(500);
     });    
 
 // Sweden Info popups
-    $('#Icehotelicon').click(function() {
-        $('#Icehotelinfo').fadeIn(500);
+    $('#icehotelicon').click(function() {
+        $('#icehotelinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Icehotelicon').fadeOut(500);
+        $('#icehotelicon').fadeOut(500);
         });  
-    $('#Icehotelimg').click(function() {
-        $('#IcehotelinfoIcehotel').fadeOut(500);
+    $('#icehotelimg').click(function() {
+        $('#icehotelinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Icehotelicon').fadeIn(500);
+        $('#icehotelicon').fadeIn(500);
     });
     $("#sweden").click(function() {
-        $('#Icehotelinfo').fadeOut(500);
+        $('#icehotelinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#sweden").fadeIn(500);
     }); 
     
-    $('#Fulufjalleticon').click(function() {
-        $('#Fulufjalletinfo').fadeIn(500);
+    $('#fulufjalleticon').click(function() {
+        $('#fulufjalletinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Fulufjalleticon').fadeOut(500);
+        $('#fulufjalleticon').fadeOut(500);
         });  
-    $('#Fulufjalletimg').click(function() {
-        $('#Fulufjalletinfo').fadeOut(500);
+    $('#fulufjalletimg').click(function() {
+        $('#fulufjalletinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Fulufjalleticon').fadeIn(500);
+        $('#fulufjalleticon').fadeIn(500);
     });
     $("#sweden").click(function() {
-        $('#Fulufjalletinfo').fadeOut(500);
+        $('#fulufjalletinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#sweden").fadeIn(500);
     }); 
     
-    $('#Storsjonicon').click(function() {
-        $('#Storsjoninfo').fadeIn(500);
+    $('#storsjonicon').click(function() {
+        $('#storsjoninfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Storsjonicon').fadeOut(500);
+        $('#storsjonicon').fadeOut(500);
     });  
-    $('#Storsjonimg').click(function() {
-        $('#Storsjoninfo').fadeOut(500);
+    $('#storsjonimg').click(function() {
+        $('#storsjoninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Storsjonicon').fadeIn(500);
+        $('#storsjonicon').fadeIn(500);
     });
     $("#sweden").click(function() {
-        $('#Storsjoninfo').fadeOut(500);
+        $('#storsjoninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#sweden").fadeIn(500);
     }); 
     
-    $('#Jokkmokkicon').click(function() {
-        $('#Jokkmokkinfo').fadeIn(500);
+    $('#jokkmokkicon').click(function() {
+        $('#jokkmokkinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Jokkmokkicon').fadeOut(500);
+        $('#jokkmokkicon').fadeOut(500);
     });  
-    $('#Jokkmokkimg').click(function() {
-        $('#Jokkmokkinfo').fadeOut(500);
+    $('#jokkmokkimg').click(function() {
+        $('#jokkmokkinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Jokkmokkicon').fadeIn(500);
+        $('#jokkmokkicon').fadeIn(500);
     });
     $("#sweden").click(function() {
-        $('#Jokkmokkinfo').fadeOut(500);
+        $('#jokkmokkinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#sweden").fadeIn(500);
     }); 
     
-    $('#SalaSilverMineicon').click(function() {
-        $('#SalaSilverMineinfo').fadeIn(500);
+    $('#salaicon').click(function() {
+        $('#salainfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#SalaSilverMineicon').fadeOut(500);
+        $('#salaicon').fadeOut(500);
     });  
-    $('#SalaSilverMineimg').click(function() {
-        $('#SalaSilverMineinfo').fadeOut(500);
+    $('#salaimg').click(function() {
+        $('#salainfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#SalaSilverMineicon').fadeIn(500);
+        $('#salaicon').fadeIn(500);
     });
     $("#sweden").click(function() {
-        $('#SalaSilverMineinfo').fadeOut(500);
+        $('#salainfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#sweden").fadeIn(500);
     }); 
     
-    $('#Bastnasicon').click(function() {
-        $('#Bastnasinfo').fadeIn(500);
+    $('#bastnasicon').click(function() {
+        $('#bastnasinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Bastnasicon').fadeOut(500);
+        $('#bastnasicon').fadeOut(500);
     });  
-    $('#Bastnasimg').click(function() {
-        $('#Bastnasinfo').fadeOut(500);
+    $('#bastnasimg').click(function() {
+        $('#bastnasinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Bastnasicon').fadeIn(500);
+        $('#bastnasicon').fadeIn(500);
     });
     $("#sweden").click(function() {
-        $('#Bastnasinfo').fadeOut(500);
+        $('#bastnasinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#sweden").fadeIn(500);
     }); 
     
-    $('#BexellsTalkingStonesicon').click(function() {
-        $('#BexellsTalkingStonesinfo').fadeIn(500);
+    $('#bexellicon').click(function() {
+        $('#bexellinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#BexellsTalkingStonesicon').fadeOut(500);
+        $('#bexellicon').fadeOut(500);
     });  
-    $('#BexellsTalkingStonesimg').click(function() {
-        $('#BexellsTalkingStonesinfo').fadeOut(500);
+    $('#bexellimg').click(function() {
+        $('#bexellinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#BexellsTalkingStonesicon').fadeIn(500);
+        $('#bexellicon').fadeIn(500);
     });
     $("#sweden").click(function() {
-        $('#BexellsTalkingStonesinfo').fadeOut(500);
+        $('#bexellinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#sweden").fadeIn(500);
     });   
     
-    $('#WRaGaRDENicon').click(function() {
-        $('#WRaGaRDENinfo').fadeIn(500);
+    $('#wragardenicon').click(function() {
+        $('#wragardeninfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#WRaGaRDENicon').fadeOut(500);
+        $('#wragardenicon').fadeOut(500);
     });  
-    $('#WRaGaRDENimg').click(function() {
-        $('#WRaGaRDENinfo').fadeOut(500);
+    $('#wragardenimg').click(function() {
+        $('#wragardeninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#WRaGaRDENicon').fadeIn(500);
+        $('#wragardenicon').fadeIn(500);
     });
     $("#sweden").click(function() {
-        $('#WRaGaRDENinfo').fadeOut(500);
+        $('#wragardeninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#sweden").fadeIn(500);
     });   
     
-    $('#MuseumofFailuresicon').click(function() {
-        $('#MuseumofFailuresinfo').fadeIn(500);
+    $('#failuresicon').click(function() {
+        $('#failuresinfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#MuseumofFailuresicon').fadeOut(500);
+        $('#failuresicon').fadeOut(500);
     });  
-    $('#MuseumofFailuresimg').click(function() {
-        $('#MuseumofFailuresinfo').fadeOut(500);
+    $('#failuresimg').click(function() {
+        $('#failuresinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#MuseumofFailuresicon').fadeIn(500);
+        $('#failuresicon').fadeIn(500);
     });
     $("#sweden").click(function() {
-        $('#MuseumofFailuresinfo').fadeOut(500);
+        $('#failuresinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#sweden").fadeIn(500);
     });      
     
-    $('#Bureplatsenicon').click(function() {
-        $('#Bureplatseninfo').fadeIn(500);
+    $('#bureplatsenicon').click(function() {
+        $('#bureplatseninfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
-        $('#Bureplatsenicon').fadeOut(500);
+        $('#bureplatsenicon').fadeOut(500);
     });  
-    $('#Bureplatsenimg').click(function() {
-        $('#Bureplatseninfo').fadeOut(500);
+    $('#bureplatsenimg').click(function() {
+        $('#bureplatseninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
-        $('#Bureplatsenicon').fadeIn(500);
+        $('#bureplatsenicon').fadeIn(500);
     });
     $("#sweden").click(function() {
-        $('#Bureplatseninfo').fadeOut(500);
+        $('#bureplatseninfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#sweden").fadeIn(500);
     });  
@@ -699,11 +699,7 @@ $(document).ready(function() {
 //ICELAND
 //////////////////////////////////////  
     
-// Iceland Image Popups
-    $('#Hraunfossarloc').click(function() {
-        $('#Hraunfossarimg').fadeIn(500);
-         $('#Hraunfossaricon').fadeIn(500);
-    });    
+// Iceland Image Popups    
     $('#seljavallulaugloc').click(function() {
         $('#seljavallulaugimg').fadeIn(500);
         $('#seljavallulaugicon').fadeIn(500);
@@ -736,6 +732,10 @@ $(document).ready(function() {
         $('#tingvellirimg').fadeIn(500);
         $('#tingvelliricon').fadeIn(500);
     });
+    $('#hraunfossarloc').click(function() {
+        $('#hraunfossarimg').fadeIn(500);
+         $('#hraunfossaricon').fadeIn(500);
+    });
     $('#petrasloc').click(function() {
         $('#petrasimg').fadeIn(500);
         $('#petrasicon').fadeIn(500);
@@ -743,7 +743,6 @@ $(document).ready(function() {
     
 // Return to map Iceland
     $("#iceland").click(function() {
-        $('#Hraunfossarimg').fadeOut(500);
         $('#seljavallulaugimg').fadeOut(500);
         $("#hvitserkurimg").fadeOut(500);
         $("#fjadrargljufurimg").fadeOut(500);
@@ -752,8 +751,8 @@ $(document).ready(function() {
         $("#witchcraftimg").fadeOut(500);
         $("#heimayimg").fadeOut(500);
         $("#tingvellirimg").fadeOut(500);
+        $('#hraunfossarimg').fadeOut(500);
         $("#petrasimg").fadeOut(500);
-        $('#Hraunfossaricon').fadeOut(500);
         $('#seljavallulaugicon').fadeOut(500);
         $("#hvitserkuricon").fadeOut(500);
         $("#fjadrargljufuricon").fadeOut(500);
@@ -762,27 +761,12 @@ $(document).ready(function() {
         $("#witchcrafticon").fadeOut(500);
         $("#heimayicon").fadeOut(500);
         $("#tingvelliricon").fadeOut(500);
+        $('#hraunfossaricon').fadeOut(500);
         $("#petrasicon").fadeOut(500);
         $("#iceland").fadeIn(500);
     });  
 
 // Iceland info popups
-    $('#Hraunfossaricon').click(function() {
-        $('#hraunfossarinfo').fadeIn(500);
-        $('.infobackground').fadeIn(500);
-        $('#Hraunfossaricon').fadeOut(500);
-        });  
-    $('#Hraunfossarimg').click(function() {
-        $('#hraunfossarinfo').fadeOut(500);
-        $('.infobackground').fadeOut(500);
-        $('#Hraunfossaricon').fadeIn(500);
-    });
-    $("#iceland").click(function() {
-        $('#hraunfossarinfo').fadeOut(500);
-        $('.infobackground').fadeOut(500);
-        $("#iceland").fadeIn(500);
-    }); 
-    
     $('#seljavallulaugicon').click(function() {
         $('#seljavallalauginfo').fadeIn(500);
         $('.infobackground').fadeIn(500);
@@ -909,7 +893,23 @@ $(document).ready(function() {
         $('#tingvellirinfo').fadeOut(500);
         $('.infobackground').fadeOut(500);
         $("#iceland").fadeIn(500);
-    });      
+    });
+    
+    $('#hraunfossaricon').click(function() {
+        $('#hraunfossarinfo').fadeIn(500);
+        $('.infobackground').fadeIn(500);
+        $('#hraunfossaricon').fadeOut(500);
+        });  
+    $('#hraunfossarimg').click(function() {
+        $('#hraunfossarinfo').fadeOut(500);
+        $('.infobackground').fadeOut(500);
+        $('#hraunfossaricon').fadeIn(500);
+    });
+    $("#iceland").click(function() {
+        $('#hraunfossarinfo').fadeOut(500);
+        $('.infobackground').fadeOut(500);
+        $("#iceland").fadeIn(500);
+    }); 
     
     $('#petrasicon').click(function() {
         $('#petrasinfo').fadeIn(500);

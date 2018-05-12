@@ -7,7 +7,7 @@
     <meta name = "keywords" content = "HTML,CSS,travel,GDES5342,JQuery,JavaScript,Iceland">
     <meta name = "author" content = "Cara Leitheiser">
     <title>See the World - Iceland</title>
-    <link rel="stylesheet" href="css/Icelandstyle.css">
+    <link rel="stylesheet" href="css/icelandstyle.css">
     <link href="https://fonts.googleapis.com/css?family=Bitter|Josefin+Slab:400,600|Cousine|PT+Serif" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/imagepopups.js"></script>
@@ -24,20 +24,19 @@
     <div class="infobackground"></div>
     
     <div class="infoboxes">
-        <img class = 'info' id = 'seljavallalauginfo' src='images/Iceland-01.png'>
-        <img class = 'info' id = 'hvitserkurinfo' src='images/Iceland-02.png' >
-        <img class = 'info' id = 'fjadrargljufurinfo' src='images/Iceland-03.png' >
-        <img class = 'info' id = 'dimmuborgirinfo' src='images/Iceland-04.png' >
-        <img class = 'info' id = 'landinfo' src='images/Iceland-05.png' >
-        <img class = 'info' id = 'witchcraftinfo' src='images/Iceland-06.png' >
-        <img class = 'info' id = 'heimayinfo' src='images/Iceland-07.png' >
-        <img class = 'info' id = 'tingvellirinfo' src='images/Iceland-08.png' >
-        <img class = 'info' id = 'hraunfossarinfo' src='images/Iceland-09.png' >
-        <img class = 'info' id = 'petrasinfo' src='images/Iceland-10.png' >
+        <img class = 'info' id = 'seljavallalauginfo' src='images/iceland01.png'>
+        <img class = 'info' id = 'hvitserkurinfo' src='images/iceland02.png' >
+        <img class = 'info' id = 'fjadrargljufurinfo' src='images/iceland03.png' >
+        <img class = 'info' id = 'dimmuborgirinfo' src='images/iceland04.png' >
+        <img class = 'info' id = 'landinfo' src='images/iceland05.png' >
+        <img class = 'info' id = 'witchcraftinfo' src='images/iceland06.png' >
+        <img class = 'info' id = 'heimayinfo' src='images/iceland07.png' >
+        <img class = 'info' id = 'tingvellirinfo' src='images/iceland08.png' >
+        <img class = 'info' id = 'hraunfossarinfo' src='images/iceland09.png' >
+        <img class = 'info' id = 'petrasinfo' src='images/iceland10.png' >
     </div>
     
-    <div id = 'Question Marks'>
-        <div class = 'infoicon' id = 'Hraunfossaricon'></div>
+    <div id = 'questionmarks'>
         <div class = 'infoicon' id = 'seljavallulaugicon'></div>
         <div class = 'infoicon' id = 'hvitserkuricon'></div>
         <div class = 'infoicon' id = 'fjadrargljufuricon'></div>
@@ -46,11 +45,11 @@
         <div class = 'infoicon' id = 'witchcrafticon'></div>
         <div class = 'infoicon' id = 'heimayicon'></div>
         <div class = 'infoicon' id = 'tingvelliricon'></div>
+        <div class = 'infoicon' id = 'hraunfossaricon'></div>
         <div class = 'infoicon' id = 'petrasicon'></div>
     </div>
 
-    <div id = 'Point Locations'>
-        <div class = 'circle' id = 'Hraunfossarloc'></div>
+    <div id = 'pointlocations'>
         <div class = 'circle' id = 'seljavallulaugloc'></div>
         <div class = 'circle' id = 'hvitserkurloc'></div>
         <div class = 'circle' id = 'fjadrargljufurloc'></div>
@@ -59,27 +58,28 @@
         <div class = 'circle' id = 'witchcraftloc'></div>
         <div class = 'circle' id = 'heimayloc'></div>
         <div class = 'circle' id = 'tingvellirloc'></div>
+        <div class = 'circle' id = 'hraunfossarloc'></div>
         <div class = 'circle' id = 'petrasloc'></div>
     </div>
 
-    <div id = 'Images'>
-        <img class = 'image' id = 'Hraunfossarimg' src="images/Hraunfossar.jpg">
-        <img class = 'image' id = 'seljavallulaugimg' src="images/Seljavallalaug%20Pool.jpg">
-        <img class = 'image' id = 'hvitserkurimg' src="images/Hv%C3%ADtserkur%20Rock%20.jpg">
-        <img class = 'image' id = 'fjadrargljufurimg' src="images/Fja%C3%B0r%C3%A1rglj%C3%BAfur%20Canyon.jpg">
-        <img class = 'image' id = 'dimmuborgirimg' src="images/Dimmuborgir.jpg">
+    <div id = 'images'>
+        <img class = 'image' id = 'seljavallulaugimg' src="images/seljavallalaug.jpg">
+        <img class = 'image' id = 'hvitserkurimg' src="images/hvitserkur.jpg">
+        <img class = 'image' id = 'fjadrargljufurimg' src="images/fjadrargljufur.jpg">
+        <img class = 'image' id = 'dimmuborgirimg' src="images/dimmuborgir.jpg">
         <img class = 'image' id = 'landimg' src="images/landmannalaugar.jpg">
-        <img class = 'image' id = 'witchcraftimg' src="images/Museum%20of%20Witchcraft%20and%20Sorcery.jpg">
-        <img class = 'image' id = 'heimayimg' src="images/Heimay.jpg">
-        <img class = 'image' id = 'tingvellirimg' src="images/pingvellir.jpg">
-        <img class = 'image' id = 'petrasimg' src="images/Petras%20Stone%20Museum.jpg">
+        <img class = 'image' id = 'witchcraftimg' src="images/witchcraft.jpg">
+        <img class = 'image' id = 'heimayimg' src="images/heimay.jpg">
+        <img class = 'image' id = 'tingvellirimg' src="images/tingvellir.jpg">
+        <img class = 'image' id = 'hraunfossarimg' src="images/hraunfossar.jpg">
+        <img class = 'image' id = 'petrasimg' src="images/petras.jpg">
     </div>
 
     <div class = 'navbar'>
-        <p class = 'navtext' id = 'toHome'><a href = 'index.html'>HOME</a></p>
-        <p class = 'navtext' id = 'toNorway'><a href = 'Norway.html'>NORWAY</a></p>
-        <p class = 'navtext' id = 'toSweden'><a href = 'Sweden.html'>SWEDEN</a></p>
-        <p class = 'navtext' id = 'toFinland'><a href = 'Finland.html'>FINLAND</a></p>
+        <p class = 'navtext' id = 'tohome'><a href = 'index.html'>HOME</a></p>
+        <p class = 'navtext' id = 'tonorway'><a href = 'norway.html'>NORWAY</a></p>
+        <p class = 'navtext' id = 'tosweden'><a href = 'sweden.html'>SWEDEN</a></p>
+        <p class = 'navtext' id = 'tofinland'><a href = 'finland.html'>FINLAND</a></p>
     </div>   
 
     <div class="container" onclick="myFunction(this)">
